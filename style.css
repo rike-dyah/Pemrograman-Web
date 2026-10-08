@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a08670;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #e0d9cf;
+    width: 320px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #544339
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.identitas {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 14px;
+    color: #2c3e50;
+    margin: 15px 0 10px 0;
+}
+
+p {
+    font-size: 11px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+ul li {
+    background-color: #bfa38a;
+    font-size: 12px;
+    color: #444;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}
+
+.sosial {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.sosial a {
+    background-color: #91664a;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 6px 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.sosial a:hover {
+    background-color: #5c402f;
+}
